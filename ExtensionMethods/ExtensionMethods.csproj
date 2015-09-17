@@ -44,6 +44,7 @@
     <Compile Include="Classes\Calculations.cs" />
     <Compile Include="Classes\internalClass.cs" />
     <Compile Include="Classes\internalClassExtensions.cs" />
+    <Compile Include="ExceptionExtension\ExceptionExtension.cs" />
     <Compile Include="Extensions\LegacyExtensions.cs" />
     <Compile Include="Extensions\ReferenceDataItem.cs" />
     <Compile Include="Implementations\APIReferenceDataSource.cs" />

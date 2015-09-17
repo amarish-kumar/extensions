@@ -54,6 +54,7 @@
     <Compile Include="Extension-Tests\ReferenceDataSourceTests.cs" />
     <Compile Include="Extension-Tests\CalculationTests.cs" />
     <Compile Include="Extension-Tests\InternalClassTests.cs" />
+    <Compile Include="Extension-Tests\ExceptionExtensionTests.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
