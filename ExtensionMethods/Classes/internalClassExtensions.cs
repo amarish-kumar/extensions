@@ -9,9 +9,9 @@ namespace ExtensionMethods.Classes
 {
    internal  static class internalClassExtensions
     {
-       public static string getString0Upper(this class0 objClass)
+       public static string getBaseStringUpper(this baseClass objClass)
        {
-           return objClass.getString0().ToUpper();
+           return objClass.getFirstName().ToUpper();
        }
        public static string getFirstValueUpper(this internalClass objClass)
        {

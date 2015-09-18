@@ -6,40 +6,40 @@ using System.Threading.Tasks;
 
 namespace ExtensionMethods.Classes
 {
-    internal abstract class class0
+    internal abstract class baseClass
     {
-        public virtual string getString0()
+        public virtual string getFirstName()
         {
-            return "abc";
+            return "rahul";
         }
 
-        protected virtual string getString00()
+        protected virtual string getSecondName()
         {
-            return "abcd";
+            return "sahay";
         }
     }
-  internal class internalClass:class0
+  internal class internalClass:baseClass
     {
       public string getFirstValue()
       {
-          return "a";
+          return "extension";
       }
-      internal class secondClass:class0
+      internal class secondClass:baseClass
       {
-          public override string getString0()
+          public override string getFirstName()
           {
-              return "xyz";
+              return "John";
           }
 
           internal string getSecondValue()
           {
-              return "b";
+              return "smith";
           }
           private class thirdClass
           {
               private string getThirdValue()
               {
-                  return "c";
+                  return "dave";
               } 
           }
       }
